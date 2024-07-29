@@ -13,3 +13,5 @@ steps:
 
 images:
   - 'gcr.io/gymvym-112233/gymvym'
+
+logsBucket: gs://gymvym-log-bucket

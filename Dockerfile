@@ -8,6 +8,9 @@ WORKDIR /app
 COPY requirements.txt /app/
 RUN pip install -r requirements.txt
 
+# django-cors-headers 설치
+RUN pip install django-cors-headers
+
 COPY . /app/
 
 # 장고의 static 파일을 모음
